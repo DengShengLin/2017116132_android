@@ -7,7 +7,7 @@
 
 ### Github上建立仓库
 
-命名方式为：学号_android
+命名方式为：学号_Android
 
 ### ssh设置
 
