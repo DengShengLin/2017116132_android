@@ -1,1 +1,1 @@
-include ':app', ':weibo'
+include ':app', ':weibo', ':xmlLayout'
