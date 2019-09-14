@@ -7,12 +7,12 @@
 
 | 修改                                                         | README.md路径             |
 | ------------------------------------------------------------ | ------------------------- |
-| 将第一个项目从根目录放到子目录。                             | /Helloworld               |
-| 创建weibo module                                             | /Helloworld/weibo         |
-| 创建桌面台球应用，使用xml控制ui界面                          | /Helloworld/xmlLayout     |
-| 创建桌面台球应用，在java代码中控制ui界面                     | /Helloworld/javaLayout    |
+| *将第一个项目从根目录放到子目录。*                           | /Helloworld               |
+| **创建简单微博**                                             | /Helloworld/weibo         |
+| 创建桌面台球，使用xml控制ui界面                              | /Helloworld/xmlLayout     |
+| 创建桌面台球，在java代码中控制ui界面                         | /Helloworld/javaLayout    |
 | 创建QQ相册，使用xml+java混合控制ui界面，简单组件xml，复杂组件java | /Helloworld/xmljavaLayout |
-|                                                              |                           |
+| 创建跟随手指移动的兔子，开发自定义view                       | /Helloworld/myview        |
 |                                                              |                           |
 |                                                              |                           |
 
