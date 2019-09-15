@@ -14,6 +14,17 @@
 | [创建QQ相册](Helloworld/xmljavalayout/README.md)          | 使用xml+java混合控制ui界面，简单组件xml，复杂组件java |
 | [创建跟随手指移动的兔子](Helloworld/myview/README.md)     | 开发自定义view                                        |
 | [创建软件更新提示页](Helloworld/softwareUpdate/README.md) | 应用相对布局                                          |
+| [创建微信登录页面](Helloworld/loginweixin/README.md)      | 应用线性布局管理器                                    |
+|                                                           |                                                       |
+|                                                           |                                                       |
+|                                                           |                                                       |
+|                                                           |                                                       |
+|                                                           |                                                       |
+|                                                           |                                                       |
+|                                                           |                                                       |
+|                                                           |                                                       |
+|                                                           |                                                       |
+|                                                           |                                                       |
 |                                                           |                                                       |
 
 
