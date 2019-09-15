@@ -18,7 +18,7 @@
 | [创建层叠的正方形](Helloworld/frameLayout/README.md)      | 应用帧布局管理器&前景图片                             |
 | [创建喜马拉雅登录页](Helloworld/ximalaya/README.md)       | 使用表格布局 支持跨行                                 |
 | [创建QQ聊天列表页](Helloworld/qqlist/README.md)           | 使用网格布局 支持跨行/跨列                            |
-| [创建微信朋友圈界面](Helloworld/friend/README.md)         | 布局管理器的嵌套                                      |
+| [创建微信朋友圈界面](Helloworld/friend/README.md)         | 布局管理器嵌套 相对+线性                              |
 |                                                           |                                                       |
 |                                                           |                                                       |
 |                                                           |                                                       |
