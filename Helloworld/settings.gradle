@@ -1,1 +1,1 @@
-include ':app', ':weibo', ':xmlLayout', ':javalayout', ':xmljavalayout', ':myview'
+include ':app', ':weibo', ':xmlLayout', ':javalayout', ':xmljavalayout', ':myview', ':softwareUpdate'
