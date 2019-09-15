@@ -15,7 +15,7 @@
 | [创建跟随手指移动的兔子](Helloworld/myview/README.md)     | 开发自定义view                                        |
 | [创建软件更新提示页](Helloworld/softwareUpdate/README.md) | 应用相对布局                                          |
 | [创建微信登录页面](Helloworld/loginweixin/README.md)      | 应用线性布局管理器                                    |
-|                                                           |                                                       |
+| [创建层叠的正方形](Helloworld/frameLayout/README.md)      | 应用帧布局管理器&前景图片                             |
 |                                                           |                                                       |
 |                                                           |                                                       |
 |                                                           |                                                       |

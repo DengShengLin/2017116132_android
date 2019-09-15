@@ -1,7 +1,9 @@
 ### 线性布局管理器LinearLayout
 
 > orientation设置垂直排列/水平排列
+>
 > gravity 显示位置，可以设置多个参数，使用|分割
+>
 > layout_weight  按照比例分配剩余空间
 
 
