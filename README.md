@@ -7,7 +7,7 @@
 
 | 修改历史/README路径                                       | 备注                                                  |
 | :-------------------------------------------------------- | ----------------------------------------------------- |
-| [创建第一个项目](Helloworld/README.md)                    | sourceTree上传本地项目到github                        |
+| [创建第一个项目](Helloworld/README.md)                    | **作业：sourceTree上传本地项目到github**              |
 | [创建简单微博](Helloworld/weibo/README.md)                | 界面布局调整                                          |
 | [创建桌面台球](Helloworld/xmlLayout/README.md)            | 使用xml控制ui界面                                     |
 | [创建桌面台球](Helloworld/javalayout/README.md)           | 在java代码中控制ui界面                                |
@@ -19,7 +19,7 @@
 | [创建喜马拉雅登录页](Helloworld/ximalaya/README.md)       | 使用表格布局 支持跨行                                 |
 | [创建QQ聊天列表页](Helloworld/qqlist/README.md)           | 使用网格布局 支持跨行/跨列                            |
 | [创建微信朋友圈界面](Helloworld/friend/README.md)         | 布局管理器嵌套 相对+线性                              |
-|                                                           |                                                       |
+| [创建按钮跳转](Helloworld/hello1/README.md)               | **作业：实现点击按钮进行活动跳转**                    |
 |                                                           |                                                       |
 |                                                           |                                                       |
 |                                                           |                                                       |
