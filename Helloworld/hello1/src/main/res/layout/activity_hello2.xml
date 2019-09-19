@@ -24,16 +24,20 @@
 
         <Button
             android:id="@+id/btn3"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="#EFA632"
             android:text="返回主页的按钮" />
 
         <Button
             android:id="@+id/btn4"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="#EFA632"
             android:text="没什么用的按钮" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

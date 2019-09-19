@@ -20,19 +20,31 @@
             android:id="@+id/tx"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="主页" />
+            android:fontFamily="sans-serif-black"
+            android:text="主页"
+            android:textAlignment="viewEnd"
+            android:textAllCaps="true"
+            android:textColor="#26505A" />
 
         <Button
             android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="跳转到第二个界面" />
+            android:fontFamily="sans-serif-black"
+            android:text="跳转到第二个界面"
+            android:textAlignment="viewEnd"
+            android:textAllCaps="true"
+            android:textColor="#26505A" />
 
         <Button
             android:id="@+id/btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="没用的按钮" />
+            android:fontFamily="sans-serif-black"
+            android:text="没用的按钮"
+            android:textAlignment="viewEnd"
+            android:textAllCaps="true"
+            android:textColor="#26505A" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
