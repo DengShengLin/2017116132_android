@@ -1,6 +1,12 @@
 
 
-### 熟悉安卓的生命周期
+
+
+
+
+
+
+### 安卓的生命周期
 
  - 熟悉各个方法的使用
 
@@ -20,7 +26,7 @@
 >
 > 1. hello1类实现onclickListener这个监听器
 > 2. 重写onclick()方法，判断是点击了哪个View，添加intent意图，然后启动活动。
-> 3. 装配响应事件：创建按钮对象,该对象先后指向两个按钮，然后创建事件
+> 3. 装配响应事件settupClick()：创建按钮对象,该对象先后指向两个按钮，然后创建监听事件
 
 
 
@@ -32,6 +38,10 @@
 
 ![20190918093358](../../img/20190918093358.png)
 
+
+
+
+
 ```java
 package cn.edu.hstc.cs.shad.hello1;
 
@@ -40,6 +50,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -49,7 +60,14 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello1);
-        Button button = findViewById(R.id.btn1);
+        settupClick();
+    }
+
+    public void settupClick(){
+        Button button;
+        button = findViewById(R.id.btn1);
+        button.setOnClickListener(this);
+        button = findViewById(R.id.btn2);
         button.setOnClickListener(this);
     }
 
@@ -60,7 +78,7 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
             startActivity(intent);
         }
         if(view.getId()==R.id.btn2){
-            Toast.makeText(Hello1.this,"没什么用的~点旁边的按钮吧",Toast.LENGTH_SHORT).show();
+            Toast.makeText(Hello1.this,"没什么用的~点旁边的按钮吧",Toast.LENGTH_LONG).show();
         }
     }
 }
@@ -74,23 +92,30 @@ public class Hello1 extends AppCompatActivity implements View.OnClickListener {
 ```java
 package cn.edu.hstc.cs.shad.hello1;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Hello2 extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("子页面");
         setContentView(R.layout.activity_hello2);
-        Button button = findViewById(R.id.btn3);
+        settupClick();
+    }
+    public void settupClick(){
+        Button button;
+        button = findViewById(R.id.btn3);
+        button.setOnClickListener(this);
+        button = findViewById(R.id.btn4);
         button.setOnClickListener(this);
     }
+
 
     @Override
     public void onClick(View view) {
@@ -98,15 +123,12 @@ public class Hello2 extends AppCompatActivity implements View.OnClickListener {
             finish();
         }
         if(view.getId()==R.id.btn4){
-            Toast.makeText(Hello2.this,"少女祈祷中...",Toast.LENGTH_SHORT).show();
+            Toast.makeText(Hello2.this,"少女祈祷中...",Toast.LENGTH_LONG).show();
         }
     }
 }
 
 ```
-
-
-
 
 
 
