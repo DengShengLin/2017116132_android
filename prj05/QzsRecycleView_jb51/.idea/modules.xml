@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/QzsRecycleView.iml" filepath="$PROJECT_DIR$/QzsRecycleView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QzsRecycleView_jb51.iml" filepath="$PROJECT_DIR$/QzsRecycleView_jb51.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

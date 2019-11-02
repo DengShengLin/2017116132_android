@@ -12,20 +12,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private RecyclerView mRecyclerView;
-    private ImageView iv_add;
-    private RecycleAdapter adapter;
-    private List<String> list = new ArrayList<String>();
+    private RecyclerView mRecyclerView;//子项
+    private ImageView iv_add;//添加按钮
+    private RecycleAdapter adapter;//引用适配器
+    private List<String> list = new ArrayList<String>();//list集合
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initView();
-        initRecycle();
+        initView();//初始化布局，找到添加按钮和recycleview
+        initRecycle();//调用方法
         iv_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //              添加自带默认动画
+                //添加自带默认动画
                     adapter.addData(list.size());
         }
         });
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     protected ArrayList<String> initData() {
         ArrayList<String> mDatas = new ArrayList<String>();
         for (int i = 0; i < 1; i++) {
-            mDatas.add("我是商品" + i);
+            mDatas.add("我是备忘录" + i);
         }
         return mDatas;
     }
